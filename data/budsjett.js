@@ -1,0 +1,166 @@
+// Generert av scripts/sync-data.sh fra data/budsjett.json. Ikke rediger denne filen for hånd.
+window.__DATA = window.__DATA || {};
+window.__DATA.budsjett = {
+  "versjon": 1,
+  "prisgrunnlag": "NOK inkl. mva, prisnivå 2026",
+  "ramme": 1200000,
+  "uforutsettProsent": 20,
+  "grupper": [
+    {
+      "id": "na",
+      "navn": "Oppussing ved overtakelse",
+      "beskrivelse": ""
+    },
+    {
+      "id": "senere",
+      "navn": "Senere",
+      "beskrivelse": "Ikke med i summen som standard. Huk av for å ta med."
+    }
+  ],
+  "poster": [
+    {
+      "id": "bad",
+      "gruppe": "na",
+      "tiltak": "Bad 6–8 m² med wc og bad slått sammen, inkl. vegg og soilrør",
+      "lav": 230000,
+      "typisk": 320000,
+      "hoy": 450000,
+      "valgt": 320000,
+      "medISum": true,
+      "kilde": ["baderomsportalen.no/guide/pris-bad", "byggklar.no", "oppussingsguiden.no"],
+      "notat": ""
+    },
+    {
+      "id": "ror-i-ror",
+      "gruppe": "na",
+      "tiltak": "Rør-i-rør, hele huset",
+      "lav": 70000,
+      "typisk": 120000,
+      "hoy": 170000,
+      "valgt": 120000,
+      "medISum": true,
+      "kilde": ["rørleggertilbud.no"],
+      "notat": ""
+    },
+    {
+      "id": "avlop",
+      "gruppe": "na",
+      "tiltak": "Nytt innvendig avløp",
+      "lav": 80000,
+      "typisk": 120000,
+      "hoy": 250000,
+      "valgt": 120000,
+      "medISum": true,
+      "kilde": ["vannogavlopssenteret.no", "byggepris.no"],
+      "notat": ""
+    },
+    {
+      "id": "kjokken",
+      "gruppe": "na",
+      "tiltak": "Kjøkken 10–12 m², mellomklasse, ferdig montert",
+      "lav": 120000,
+      "typisk": 190000,
+      "hoy": 300000,
+      "valgt": 190000,
+      "medISum": true,
+      "kilde": ["rørleggertilbud.no", "byggsmartere.no"],
+      "notat": ""
+    },
+    {
+      "id": "el",
+      "gruppe": "na",
+      "tiltak": "El full rehabilitering 140 m², inkl. nytt sikringsskap og komfyrvakt",
+      "lav": 150000,
+      "typisk": 250000,
+      "hoy": 400000,
+      "valgt": 250000,
+      "medISum": true,
+      "kilde": ["elektrikerpris.no"],
+      "notat": ""
+    },
+    {
+      "id": "bereder",
+      "gruppe": "na",
+      "tiltak": "Bereder 200 l med vannstopper",
+      "lav": 13000,
+      "typisk": 18000,
+      "hoy": 28000,
+      "valgt": 18000,
+      "medISum": true,
+      "kilde": ["rørleggertilbud.no", "byttevvb.no"],
+      "notat": ""
+    },
+    {
+      "id": "vaskerom",
+      "gruppe": "na",
+      "tiltak": "Vaskerom i kjeller med sluk og membran",
+      "lav": 75000,
+      "typisk": 130000,
+      "hoy": 200000,
+      "valgt": 130000,
+      "medISum": true,
+      "kilde": ["handverkerdrammen.no", "byggstart.no"],
+      "notat": ""
+    },
+    {
+      "id": "brannskille",
+      "gruppe": "na",
+      "tiltak": "Brannskille: 2 EI30-dører i kjeller + skille på loft",
+      "lav": 43000,
+      "typisk": 80000,
+      "hoy": 142000,
+      "valgt": 80000,
+      "medISum": true,
+      "kilde": ["corhome.no", "byggstart.no"],
+      "notat": ""
+    },
+    {
+      "id": "vinduer",
+      "gruppe": "senere",
+      "tiltak": "Vinduer, 10 stk + 2 balkongdører",
+      "lav": 140000,
+      "typisk": 220000,
+      "hoy": 340000,
+      "valgt": 220000,
+      "medISum": false,
+      "kilde": ["oppussingstjenester.no", "byggmesterlisten.no"],
+      "notat": ""
+    },
+    {
+      "id": "tak",
+      "gruppe": "senere",
+      "tiltak": "Omtekking tak (fellesprosjekt med 3 naboer)",
+      "lav": null,
+      "typisk": null,
+      "hoy": null,
+      "valgt": 0,
+      "medISum": false,
+      "kilde": [],
+      "notat": "Ukjent kostnad. Fellesprosjekt med 3 naboer – vår andel avhenger av avtale og tilbud."
+    },
+    {
+      "id": "drenering",
+      "gruppe": "senere",
+      "tiltak": "Drenering / utvendig fuktsikring",
+      "lav": null,
+      "typisk": null,
+      "hoy": null,
+      "valgt": 0,
+      "medISum": false,
+      "kilde": [],
+      "notat": "Ukjent kostnad. Vurder etter fuktmåling i kjeller og befaring av grunnmur."
+    },
+    {
+      "id": "pipe",
+      "gruppe": "senere",
+      "tiltak": "Piperehabilitering",
+      "lav": null,
+      "typisk": null,
+      "hoy": null,
+      "valgt": 0,
+      "medISum": false,
+      "kilde": [],
+      "notat": "Ukjent kostnad. Be feiervesenet om tilstandsvurdering først."
+    }
+  ]
+};
